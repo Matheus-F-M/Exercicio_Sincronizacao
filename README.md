@@ -12,22 +12,22 @@ relizar o somatório desses valores. O array dado é convertido via casting para
 que realiza o somatório. Essa função incrementa uma variável global que armazena o somatório de todos os valores da matriz, para evitar que múltiplas threads acessem 
 essa variável global é utilizada uma trava mutex que previne este problema. Finalmente, após todas as threads alterarem essa variável global, o programa unifica as 
 thredas com a principal "main" e imprime o valor resultante do somatório.
-## Intalation
+## Instalação
 ``` sh
 git clone https://github.com/Matheus-F-M/Exercicio_Sincronizacao.git
 ```
-
-## Compile
+## Comandos do Makefile:
+### Compile
 ``` sh
 make binary 
 ```
 
-## Runing
+### Run
 ``` sh
 make run 
 ```
 
-## Cleaning
+### Clean
 ``` sh
 make clean 
 ```
