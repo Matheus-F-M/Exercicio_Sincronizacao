@@ -6,6 +6,7 @@ Este código possui como objetivo realizar o somatório dos valores de uma matri
 
 ## Funcionamento
 Este código recebe do usuário a ordem de uma matriz quadrada e os valores dessa matriz, com isso é criada uma quantidade de threads igual a ordem da matriz.
+
 A função para criar threads recebe como parâmetro um array de inteiros que possui os números da respectiva fila da matriz durante a iteração, bem como uma função para 
 relizar o somatório desses valores. O array dado é convertido via casting para "void" então tranformado novamente via casting para um array de inteiros dentro da função
 que realiza o somatório. Essa função incrementa uma variável global que armazena o somatório de todos os valores da matriz, para evitar que múltiplas threads acessem 
